@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.output-display {
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-bottom: 10px;
+    color: black;
+    text-align: right;
+    height: 65px;
+    width: 253px;
+    border-style: inset;
+    border-color: #00FF6C;
+}
+
+.calculator-grid {
+    max-width: 400px;
+    margin: 20vh auto 0 auto;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    float: left;
+}
+
+button {
+    padding: 23px;
+    font-size: large;
+    font-weight: bold;
+    border-style: solid;
+}
+
+button:hover {
+    background-color: #323330;
+    cursor: pointer;
+    color: white;
+    transition: 0.7s ease-in-out;
+}
+
+.inp {
+    color: rgba(0,0,0,0.4);
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: 30px;
+    text-align: right;
+}
